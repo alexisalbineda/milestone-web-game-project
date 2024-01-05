@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+h3 {
+    color: black;
+}
+
+body {
+    background-color: white;
+}
+.board {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.board > div {
+    background-color: rgba(0, 195, 255, 0.588);
+}
